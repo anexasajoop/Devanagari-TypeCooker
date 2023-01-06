@@ -1,0 +1,121 @@
+	body{
+		background-color:rgba(197, 206, 225, 0.7);
+		margin: 0;
+	}
+	#intro{
+		color: #ffc400;
+		width: 100%;
+		margin:0;
+		padding-left: 0.1em;
+		padding-right: 0.1em;
+		display: inline;
+	}
+	#tc{
+		color: white;
+		font-family: "Anek Devanagari";
+		padding-left: 0.1em;
+		background-color: #5917a5;
+		font-style: normal;
+		font-weight: normal;
+	}
+	.explainparameter{
+		display: none;
+		background-color: blue;
+		color: white;
+		font-family: "Anek Devanagari";
+	}
+	#recipe{
+		width: 100vw;
+		margin:0;
+	}
+	.selected{
+		color: white;
+		font-family: "Anek Devanagari";
+		padding-left: 0.2em;
+		background-color: #5917a5;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 120%;
+	}
+	a{
+		cursor: pointer; /* force displaying pointer curser for a tags missing a href attribute */
+		text-decoration: none;
+		color: white;
+		padding-left: 0.2em;
+		padding-right: 0.2em;
+		padding-top: 0.3em;
+		display: inline-block; 
+	}
+	a:hover{
+		font-family: "Anek Devanagari";
+		color: white;
+	}
+	.container{
+		background-color: rgba(255, 255, 255, 0.52);
+	}
+	.entry, .choice, .explain{
+		display: inline-block;
+		font-family: "Anek Devanagari";
+		font-style: normal;
+		font-weight: normal;
+		text-align: left;
+		text-transform: capitalize;
+		color: rgba(32, 31, 27, 0.95);
+		padding: 0;
+	}
+	.entry{
+		background-color: #994de2;
+		color: white;
+	}
+	.entry:hover, .explaining{
+/*		background-color: #ffc400;
+		color: white;
+		*/
+		color: #994de2;
+	}
+	div.explaining{
+		background-color: #994de2;
+		color: red;
+	}
+	.choice{
+		display: inline-block;
+		margin-right: 0.125em;
+		padding-left: 0.125em;
+		padding-right: 0.125em;
+	}
+	.explain{
+		display: none;
+		background-color: black;
+		color: white;
+		text-transform: none;
+		font-family: "Anek Devanagari";
+		padding-top: 0.3em;	
+		padding-left: 0.2em;
+	}
+	#title, #explain{
+		font-family: "Anek Devanagari";
+		text-align: left;
+		color: white;
+		padding-left: 0.25em;
+		background-color: #5917a5;
+		padding-top: 0.35em; /*Pooja*/
+		line-height: 100%;
+	}
+	#title{
+		text-transform: uppercase;
+
+
+	}
+	em{
+		font-style: normal;
+		font-family: "Anek Devanagari";
+		color: rgba(0, 0, 0, 0.4);
+		text-transform: capitalize;
+		padding-left: 0.1em;
+		padding-right: 0.1em;
+		background-color: #994de2;
+	}
+	#footer{
+		font-family: "Anek Devanagari";
+		color: white;
+	}

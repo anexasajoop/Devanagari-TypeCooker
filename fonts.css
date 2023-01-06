@@ -1,0 +1,13 @@
+
+/*	font-face declarations	*/
+
+/*@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,300);
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wdth,wght@75,700&display=swap');
+
+body{
+		line-height: 100%;
+		font-size: 3vw;
+}

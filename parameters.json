@@ -1,0 +1,687 @@
+{  
+   "keys":[  
+      "width",
+      "weight",
+      "headline",
+      "above base matra height",
+      "below base matra depth",
+      "knots",
+      "axis",
+      "vertical stroke ending",
+      "contrast amount",
+      "special"
+   ],
+   
+   "weight":[ 
+   		{  
+         "url":"parameters.html#strokeweight",
+         "level":1,
+         "name":"bold",
+         "weight":5,
+         "description":"All strokes are heavy."
+      	}, 
+      	{  
+         "url":"parameters.html#strokeweight",
+         "level":1,
+         "name":"light",
+         "weight":5,
+         "description":"All strokes are light."
+      	},
+      	{  
+         "url":"parameters.html#strokeweight",
+         "level":1,
+         "name":"regular",
+         "weight":7,
+         "description":"All strokes are regular. Not too light, not too heavy."
+      	},
+      	{  
+         "url":"parameters.html#strokeweight",
+         "level":3,
+         "name":"thin",
+         "weight":3,
+         "description":"All strokes are thin, that’s lighter than Extra Light."
+      	},
+      	{  
+         "url":"parameters.html#strokeweight",
+         "level":3,
+         "name":"extra light",
+         "weight":3,
+         "description":"All strokes are very light."
+      	},
+      	{  
+         "url":"parameters.html#strokeweight",
+         "level":3,
+         "name":"semi bold",
+         "weight":3,
+         "description":"All strokes are heavier than normal, but not bold."
+      	},
+      	{  
+         "url":"parameters.html#strokeweight",
+         "level":4,
+         "description":"All strokes are heavier than bold.",
+         "name":"extra bold",
+         "weight":4
+      	},
+      	{  
+         "url":"parameters.html#strokeweight",
+         "level":4,
+         "name":"hairline",
+         "weight":2,
+         "description":"All strokes are as thin as possible."
+      	},
+      	{  
+         "url":"parameters.html#strokeweight",
+         "level":4,
+         "name":"very thin",
+         "weight":4,
+         "description":"All strokes are very thin."
+      	},
+      	{  
+         "url":"parameters.html#strokeweight",
+         "level":4,
+         "name":"black",
+         "weight":2,
+         "description":"All strokes are as heavy as they can be."
+      	}
+   ],
+
+   "width":[  
+   		{  
+         "url":"parameters.html#width",
+         "level":1,
+         "name":"narrow",
+         "weight":4,
+         "description":"Overall not too wide."
+      },
+      {  
+         "url":"parameters.html#width",
+         "level":1,
+         "name":"normal",
+         "weight":5,
+         "description":"A normal width, neither too narrow nor too wide."
+      },
+      {  
+         "url":"parameters.html#width",
+         "level":1,
+         "name":"extended",
+         "weight":4,
+         "description":"The overall width is greater than normal."
+      },
+      {  
+         "level":2,
+         "name":"condensed",
+         "weight":3,
+         "description":"The overall width is quite narrow, but not uncomfortably so."
+      },
+      {  
+         "url":"parameters.html#width",
+         "level":2,
+         "name":"wide",
+         "weight":3,
+         "description":"The overall width is definitely wide."
+      },
+      {  
+         "url":"parameters.html#width",
+         "level":2,
+         "name":"very wide",
+         "weight":2,
+         "description":"The overall width is very large."
+      },
+      {  
+         "url":"parameters.html#width",
+         "level":3,
+         "name":"extra condensed",
+         "weight":3,
+         "description":"The overall width is really narrow, almost no room for counters."
+      },
+      {  
+         "url":"parameters.html#width",
+         "level":3,
+         "name":"extremely wide",
+         "weight":3,
+         "description":"Draw something really wide. Then make it twice as wide again."
+      },
+      {  
+         "url":"parameters.html#width",
+         "level":5,
+         "name":"compressed",
+         "weight":3,
+         "description":"The overall width is as narrow as possible."
+      }
+   ],
+
+   "headline":[
+   	  {
+   	  		"url":"parameters.html#headline",
+   	  		"level": 3,
+   	  		"name": "continuous",
+   	  		"weight": 5,
+   	  		"description": "It is a continuous line that sits atop all the letters in a word."
+   	  },
+   	  {
+   	  		"url":"parameters.html#headline",
+   	  		"level": 3,
+   	  		"name": "broken",
+   	  		"weight": 5,
+   	  		"description": "There are breaks in the headline at the end of every syllabic unit."
+   	  },
+   	  {
+   	  		"url":"parameters.html#headline",
+   	  		"level": 4,
+   	  		"name": "missing",
+   	  		"weight": 3,
+   	  		"description": "There is no headline."
+   	  },
+   	  {
+   	  		"url":"parameters.html#headline",
+   	  		"level": 4,
+   	  		"name": "curved",
+   	  		"weight": 2,
+   	  		"description": "The headline is a curved stroke."
+   	  },
+   	  {
+   	  		"url":"parameters.html#headline",
+   	  		"level": 5,
+   	  		"name": "curved and broken",
+   	  		"weight": 2,
+   	  		"description": "The headline is a curved stroke with breaks at the end of every syllabic unit."
+   	  },
+   	  {
+   	  		"url":"parameters.html#headline",
+   	  		"level": 5,
+   	  		"name": "broken and bobbing",
+   	  		"weight": 2,
+   	  		"description": "There are breaks in the headline at the end of every syllabic unit. Odd-numbered syllabic units are higher than even numbered ones."
+   	  },
+   	  {
+   	  		"url":"parameters.html#headline",
+   	  		"level": 5,
+   	  		"name": "curved but with a straight baseline",
+   	  		"weight": 1,
+   	  		"description": "The headline is a curved stroke, but the letters sit on a horizontal baseline."
+   	  },
+   	  {
+   	  		"url":"parameters.html#headline",
+   	  		"level": 5,
+   	  		"name": "straight but with a curved baseline",
+   	  		"weight": 1,
+   	  		"description": "The headline is straight, but the letters sit on a curved baseline."
+   	  }
+   ],
+
+   "above base matra height":[
+   	  	{
+   	  		"url":"parameters.html#abovebasematraheight",
+   	  		"level": 2,
+   	  		"name": "tall",
+   	  		"weight": 5,
+   	  		"description": "The height of matras that sit above the letters should be taller than normal. But what is normal?"
+   	  	},
+   	  	{
+   	  		"url":"parameters.html#abovebasematraheight",
+   	  		"level": 4,
+   	  		"name": "very tall",
+   	  		"weight": 3,
+   	  		"description": "The height of matras that sit above the letters should be much taller than normal. But what is normal?"
+   	  	},
+   	  	{
+   	  		"url":"parameters.html#abovebasematraheight",
+   	  		"level": 2,
+   	  		"name": "short",
+   	  		"weight": 5,
+   	  		"description": "The height of matras that sit above the letters should be shorter than normal. But what is normal?"
+   	  	},
+   	  	{
+   	  		"url":"parameters.html#abovebasematraheight",
+   	  		"level": 3,
+   	  		"name": "very short",
+   	  		"weight": 3,
+   	  		"description": "The height of matras that sit above the letters should be much shorter than normal. But what is normal?"
+   	  	}
+   ],
+
+   "below base matra depth":[
+   	  	{
+   	  		"url":"parameters.html#belowbasematradepth",
+   	  		"level": 2,
+   	  		"name": "deep",
+   	  		"weight": 5,
+   	  		"description": "The matras that sit below the letters should go deeper than normal. But what is normal?"
+   	  	},
+   	  	{
+   	  		"url":"parameters.html#belowbasematradepth",
+   	  		"level": 4,
+   	  		"name": "very deep",
+   	  		"weight": 3,
+   	  		"description": "The matras that sit below the letters should go way deeper than normal. But what is normal?"
+   	  	},
+   	  	{
+   	  		"url":"parameters.html#belowbasematradepth",
+   	  		"level": 2,
+   	  		"name": "shallow",
+   	  		"weight": 5,
+   	  		"description": "The matras that sit below the letters should be shallower than normal. But what is normal?"
+   	  	},
+   	  	{
+   	  		"url":"parameters.html#belowbasematradepth",
+   	  		"level": 4,
+   	  		"name": "very shallow",
+   	  		"weight": 3,
+   	  		"description": "The matras that sit below the letters should be much shallower than normal. But what is normal?"
+   	  	},
+   	  	{
+   	  		"url":"parameters.html#belowbasematradepth",
+   	  		"level": 5,
+   	  		"name": "there is no room for them",
+   	  		"weight": 2,
+   	  		"description": "The matras that sit below the letters must be accomodated within the space between the headline and baseline."
+   	  	}
+   ],
+
+   "knots":[
+   		{
+   			"url":"parameters.html#knots",
+   	  		"level": 3,
+   	  		"name": "open",
+   	  		"weight": 2,
+   	  		"description": "The knot doesn’t create a counter or filled shape of black at all."
+   		},
+   		{
+   			"url":"parameters.html#knots",
+   	  		"level": 3,
+   	  		"name": "closed",
+   	  		"weight": 2,
+   	  		"description": "The knots make a closed counter."
+   		},
+   		{
+   			"url":"parameters.html#knots",
+   	  		"level": 3,
+   	  		"name": "filled",
+   	  		"weight": 3,
+   	  		"description": "The counter space created by the knot is filled."
+   		}
+   ],
+
+   "axis":[
+   		{
+   			"url":"parameters.html#axis",
+   	  		"level": 3,
+   	  		"name": "left-inclined",
+   	  		"weight": 1,
+   	  		"description": "Like you would expect in traditional Latin calligraphy. Feel free to make the angle more or less obtuse."
+   		},
+   		{
+   			"url":"parameters.html#axis",
+   	  		"level": 1,
+   	  		"name": "right-inclined",
+   	  		"weight": 5,
+   	  		"description": "Like you would expect in traditional Devanagari calligraphy. Feel free to make the angle more or less obtuse."
+   		},
+   		{
+   			"url":"parameters.html#axis",
+   	  		"level": 1,
+   	  		"name": "vertical",
+   	  		"weight": 4,
+   	  		"description": "The vertical strokes are thick, and the horizontal ones thin."
+   		},
+   		{
+   			"url":"parameters.html#axis",
+   	  		"level": 3,
+   	  		"name": "horizontal",
+   	  		"weight": 1,
+   	  		"description": "The horizontal strokes are thick, and the vertical ones thin."
+   		}
+   ],
+
+   "stroke ending":[
+   		{
+   			"url":"parameters.html#strokeending",
+   	  		"level": 1,
+   	  		"name": "straight",
+   	  		"weight": 3,
+   	  		"description": "All vertical strokes end with a horizontal terminal, and the horizontal ones with a vertical terminal."
+   		},
+   		{
+   			"url":"parameters.html#strokeending",
+   	  		"level": 1,
+   	  		"name": "canted based on axis",
+   	  		"weight": 5,
+   	  		"description": "Strokes end at an angle that echoes the axis."
+   		},
+   		{
+   			"url":"parameters.html#strokeending",
+   	  		"level": 1,
+   	  		"name": "rounded",
+   	  		"weight": 3,
+   	  		"description": "Strokes are rounded at the end."
+   		},
+   		{
+   			"url":"parameters.html#strokeending",
+   	  		"level": 3,
+   	  		"name": "vertical stems end in a flick to the left",
+   	  		"weight": 1,
+   	  		"description": "A flick is a quick, short stroke. Add one to the end of all vertical stems, and make it point towards the left."
+   		},
+   		{
+   			"url":"parameters.html#strokeending",
+   	  		"level": 3,
+   	  		"name": "vertical stems end in a flick to the right",
+   	  		"weight": 1,
+   	  		"description": "A flick is a quick, short stroke. Add one to the end of all vertical stems, and make it point towards the right."
+   		},
+   		{
+   			"url":"parameters.html#strokeending",
+   	  		"level": 4,
+   	  		"name": "vertical stems end in a slab serif",
+   	  		"weight": 2,
+   	  		"description": "Yes, we know Devanagari isn’t supposed to have serifs, but sometimes it does? Add a slab serif to the vertical stems."
+   		},
+   		{
+   			"url":"parameters.html#strokeending",
+   	  		"level": 5,
+   	  		"name": "vertical stems end in a tuscan serif",
+   	  		"weight": 1,
+   	  		"description": "Let’s have some fun — add a Tuscan serif to the vertical stems"
+   		}
+   ],
+   
+   "special":[  
+      {  
+         "url":"parameters.html#special",
+         "level":4,
+         "name":"include a nukta character with the ु matra",
+         "weight":3,
+         "description":"Draw a character with a nukta, like क़, ढ़, फ़, etc., and apply the ु matra to it."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":4,
+         "name":"include the ै matra with an ansvara ं",
+         "weight":3,
+         "description":"Add the ै matra to a consonant, and then add the ansvara ं also."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":4,
+         "name":"at least one rakar conjunct",
+         "weight":5,
+         "description":"Your drawing must include at least one rakar conjunct like ख्र, द्र, ग्र, etc."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":4,
+         "name":"at least one akhand conjunct",
+         "weight":5,
+         "description":"Your drawing must include at least one out of three akhand ligatures क्ष ज्ञ त्र."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":4,
+         "name":"at least one triconsonantal conjunct",
+         "weight":5,
+         "description":"A triconsonantal conjunct is made up of three consontants, like स्प्र or ज्ज्व. Include one such conjunct in your drawing."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":4,
+         "name":"at least two biconsonantal conjuncts",
+         "weight":5,
+         "description":"A biconsonantal conjunct is made up of two consontants, like द्ध or म्य. Include two such conjuncts in your drawing."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":4,
+         "name":"at least two vertical conjuncts",
+         "weight":5,
+         "description":"In a vertical conjunct, the consonants combine vertically, like in ड्ड्य or ट्व. Include two such conjuncts in your drawing."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":4,
+         "name":"include रु and रू",
+         "weight":5,
+         "description":"Your drawing must include the letter र with the ु and ू matras."
+      },
+        {  
+         "url":"parameters.html#special",
+         "level":5,
+         "name":"vertical conjuncts of kana height",
+         "weight":3,
+         "description":"Vertical conjuncts like ड्ड or ह्म should be the same height as the kana ा."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":5,
+         "name":"flourished rakar",
+         "weight":1,
+         "description":"Rakar is the form that the letter र takes in conjuncts where it is preceded by a half form, like in प्र or द्र. Draw it with a flourish."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":5,
+         "name":"flourished initial",
+         "weight":1,
+         "description":"The first letter in the word should contain a flourish.”"
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":5,
+         "name":"flourished matra",
+         "weight":1,
+         "description":"Draw any of the matras with a flourish."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":5,
+         "name":"both regional variations of ल",
+         "weight":4,
+         "description":"Include both regional variants of ल in your drawing."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":5,
+         "name":"both regional variations of श",
+         "weight":4,
+         "description":"Include both regional variants of श in your drawing."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":5,
+         "name":"as a stencil",
+         "weight":3,
+         "description":"Draw this as a stencil."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":5,
+         "name":"as a bitmap",
+         "weight":3,
+         "description":"Draw this as like it is a bitmap or pixel design."
+      },
+      {  
+         "url":"parameters.html#special",
+         "level":5,
+         "name":"as a script",
+         "weight":3,
+         "description":"Draw this as a script."
+      }
+   ],
+
+   "lower mean line position":[
+   		{  
+         "url":"parameters.html#lowermeanline",
+         "level":4,
+         "name":"normal",
+         "weight":7,
+         "description":"Think of the lower mean line as being where the lowest points of bowls of प or व are. Draw this keeping it at its normal position."
+    	},
+   		{  
+         "url":"parameters.html#lowermeanline",
+         "level":4,
+         "name":"somewhat high",
+         "weight":7,
+         "description":"Think of the lower mean line as being where the lowest points of bowls of प or व are. Draw this keeping it higher than usual, i.e. farther from the baseline. Consider how the vertical proportions of other letters will change in response."
+    	},
+    	{  
+         "url":"parameters.html#lowermeanline",
+         "level":4,
+         "name":"quite high",
+         "weight":3,
+         "description":"Think of the lower mean line as being where the lowest points of bowls of प or व are. Draw this keeping it much higher than usual, i.e. quite far from the baseline. Consider how the vertical proportions of other letters will change in response."
+    	},
+    	{  
+         "url":"parameters.html#lowermeanline",
+         "level":5,
+         "name":"very high",
+         "weight":1,
+         "description":"Think of the lower mean line as being where the lowest points of bowls of प or व are. Draw this keeping it as high as possible, i.e. very, very far from the baseline. Consider how the vertical proportions of other letters will change in response."
+    	},
+    	{  
+         "url":"parameters.html#lowermeanline",
+         "level":4,
+         "name":"somewhat low",
+         "weight":7,
+         "description":"Think of the lower mean line as being where the lowest points of bowls of प or व are. Draw this keeping it lower than usual, i.e. closer to the baseline. Consider how the vertical proportions of other letters will change in response."
+    	},
+    	{  
+         "url":"parameters.html#lowermeanline",
+         "level":4,
+         "name":"quite low",
+         "weight":3,
+         "description":"Think of the lower mean line as being where the lowest points of bowls of प or व are. Draw this keeping it much lower than usual, i.e. quite close to the baseline. Consider how the vertical proportions of other letters will change in response."
+    	},
+    	{  
+         "url":"parameters.html#lowermeanline",
+         "level":5,
+         "name":"very low",
+         "weight":1,
+         "description":"Think of the lower mean line as being where the lowest points of bowls of प or व are. Draw this keeping it as lower as possible, i.e. very, very close to the baseline. Consider how the vertical proportions of other letters will change in response."
+    	}
+   ],
+
+   "upper mean line position":[
+   		{  
+         "url":"parameters.html#uppermeanline",
+         "level":4,
+         "name":"normal",
+         "weight":7,
+         "description":"Think of the upper mean line as being where the half stem of letters like ट ends. Draw this keeping it at its normal position."
+    	},
+   		{  
+         "url":"parameters.html#uppermeanline",
+         "level":4,
+         "name":"somewhat high",
+         "weight":7,
+         "description":"Think of the upper mean line as being where the half stem of letters like ट ends. Draw this keeping it higher than usual, i.e. closer to the headline. Consider how the vertical proportions of other letters will change in response."
+    	},
+    	{  
+         "url":"parameters.html#uppermeanline",
+         "level":4,
+         "name":"quite high",
+         "weight":3,
+         "description":"Think of the upper mean line as being where the half stem of letters like ट ends. Draw this keeping it much higher than usual, i.e. quite close to the headline. Consider how the vertical proportions of other letters will change in response."
+    	},
+    	{  
+         "url":"parameters.html#uppermeanline",
+         "level":5,
+         "name":"very high",
+         "weight":1,
+         "description":"Think of the upper mean line as being where the half stem of letters like ट ends. Draw this keeping it as high as you can, i.e. very, very close to the headline. Consider how the vertical proportions of other letters will change in response."
+    	},
+    	{  
+         "url":"parameters.html#uppermeanline",
+         "level":4,
+         "name":"somewhat low",
+         "weight":7,
+         "description":"Think of the upper mean line as being where the half stem of letters like ट ends. Draw this keeping it lower than usual, i.e. farther from the headline. Consider how the vertical proportions of other letters will change in response."
+    	},
+    	{  
+         "url":"parameters.html#uppermeanline",
+         "level":4,
+         "name":"quite low",
+         "weight":3,
+         "description":"Think of the upper mean line as being where the half stem of letters like ट ends. Draw this keeping it much lower than usual, i.e. quite far from the headline. Consider how the vertical proportions of other letters will change in response."
+    	},
+    	{  
+         "url":"parameters.html#uppermeanline",
+         "level":5,
+         "name":"very low",
+         "weight":1,
+         "description":"Think of the upper mean line as being where the half stem of letters like ट ends. Draw this keeping it as low as you can, i.e. very, very far from the headline. Consider how the vertical proportions of other letters will change in response."
+    	}
+   ],
+
+   "contrast amount":[  
+      {  
+         "url":"parameters.html#contrastamount",
+         "level":1,
+         "name":"low",
+         "weight":10,
+         "description":"Thicks are similar to thins."
+      },
+      {  
+         "url":"parameters.html#contrastamount",
+         "level":1,
+         "name":"some",
+         "weight":10,
+         "description":"Thicks are similar to thins but you can tell the difference."
+      },
+      {  
+         "url":"parameters.html#contrastamount",
+         "level":1,
+         "name":"a lot",
+         "weight":10,
+         "description":"Thicks are a lot thicker than the thins."
+      },
+      {  
+         "url":"parameters.html#contrastamount",
+         "level":2,
+         "name":"visible",
+         "weight":10,
+         "description":"Thicks are visibly thicker than the thins."
+      },
+      {  
+         "url":"parameters.html#contrastamount",
+         "level":2,
+         "name":"high",
+         "weight":10,
+         "description":"A lot of difference between the thicks and the thins."
+      },
+      {  
+         "url":"parameters.html#contrastamount",
+         "level":3,
+         "name":"not visible",
+         "weight":10,
+         "description":"Thick looks like thin. There appears to be no contrast."
+      },
+      {  
+         "url":"parameters.html#contrastamount",
+         "level":3,
+         "name":"very low",
+         "weight":10,
+         "description":"Thicks are similar to thins."
+      },
+      {  
+         "url":"parameters.html#contrastamount",
+         "level":4,
+         "name":"very high",
+         "weight":10,
+         "description":"A lot of difference between the thicks and the thins."
+      },
+      {  
+         "url":"parameters.html#contrastamount",
+         "level":4,
+         "name":"no contrast at all",
+         "weight":10,
+         "description":"Thick equals thin. There is no contrast, even when you really need it."
+      },
+      {  
+         "url":"parameters.html#contrastamount",
+         "level":5,
+         "name":"extreme",
+         "weight":10,
+         "description":"The thicks and thins are as different as you can make them."
+      }
+   ]
+
+}
