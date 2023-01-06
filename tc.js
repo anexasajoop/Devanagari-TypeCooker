@@ -287,13 +287,6 @@ var makeSelection = function(level, data){
     }
 }
 
-// Copy to clipboard as discussed here
-// http://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
-function shareRecipe() {
-    // Create footer share link to match the current options
-    // remove and hash that might or might not have been in the location
-    var shareLink = window.location.href.replace(/#$/, "") + "#" + buildHashFromObj(current);
-    window.prompt("Save link to this recipe: Ctrl+C, Enter", shareLink);
-}
+
 
 // thank you for your attention. Now go draw something.
